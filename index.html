@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login page</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/login-page_demo.css">
+    <link rel="stylesheet" href="assets/css/login-page_style.css">
+    <link rel="stylesheet" href="assets/css/login-page_responsive.css">
+</head>
+
+<body>
+
+    <div class="login-page_container">
+
+        <div class="login-section page-side section-ope">
+            <div class="section-page_intro">
+                <img src="assets/images/signin-icon-black.png" alt="signin-icon">
+                <p class="section-page-intro_title">Войти</p>
+            </div>
+
+            <div class="login-form-area">
+                <div class="form-title">
+                    <div class="head-line">
+                        <a href="javascript:void(0)">
+                            <img class="yellow-logo rotate" src="assets/images/yellow-black.png" alt="yellow logo">
+                        </a>
+                        <p class="yellow-title">Вход</p>
+                    </div>
+                </div>
+                <div class="section-form">
+                    <form class="login-form">
+                        <label class="login-page_label">
+                            <span class="icon-container icon-black"><i class="fa-solid fa-envelope"></i></span>
+                            <input class="login-page_input" type="email" name="email" autocomplete="off">
+                            <span class="login-page_placeholder">Email</span>
+                        </label>
+                        <label class="login-page_label">
+                            <span class="icon-container icon-black"><i class="fa-solid fa-key"></i></span>
+                            <input class="login-page_input" type="password" name="password" autocomplete="off">
+                            <span class="login-page_placeholder">Пароль</span>
+                        </label>
+                        <div class="login-section_submit">
+                            <ul>
+                                <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa-brands fa-google"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa-brands fa-yandex"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa-brands fa-vk"></i></a></li>
+                            </ul>
+                            <button class="custom-button">
+                                <i class="fas fa-sign-in-alt"></i>
+                                <span class="button-text">Войти</span>
+                            </button>
+                        </div>
+                        <div class="login-page_forget">
+                            <a href="">Забыли пароль?</a>
+                        </div>
+                    </form>
+
+                    <form class="forget-form">
+                        <p class="forget-title">Сброс пароля</p>
+                        <label class="login-page_label">
+                            <span class="icon-container icon-black"><i class="fa-solid fa-envelope"></i></span>
+                            <input class="login-page_input" type="email" name="email" autocomplete="off">
+                            <span class="login-page_placeholder">Email</span>
+                        </label>
+                        <div class="login-section_submit">
+                            <div class="login-page-submit-btn"><input type="submit" name="submit-login" value="submit"></div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="signup-section page-side section-clos">
+            <div class="section-page_intro">
+                <img src="assets/images/signup-icon.png" alt="signup-icon">
+                <p class="section-page-intro_title">Создать</p>
+            </div>
+
+            <div class="signup-form-area">
+                <div class="form-title">
+                    <div class="head-line">
+                        <a href="javascript:void(0)">
+                            <img class="yellow-logo rotate" src="assets/images/yellow-ye2.png" alt="yellow-yellow">
+                        </a>
+                        <p class="yellow-title">Регистрация</p>
+                    </div>
+                </div>
+                <div class="section-form">
+                    <form class="signup-form">
+                        <label class="login-page_label">
+                            <span class="icon-container icon-grey"><i class="fas fa-user"></i></span>
+                            <input class="login-page_input" type="text" name="username" autocomplete="off">
+                            <span class="login-page_placeholder">Имя</span>
+                        </label>
+                        <label class="login-page_label">
+                            <span class="icon-container icon-grey"><i class="fa-solid fa-envelope"></i></span>
+                            <input class="login-page_input" type="email" name="email" autocomplete="off">
+                            <span class="login-page_placeholder">Email</span>
+                        </label>
+                        <label class="login-page_label">
+                            <span class="icon-container icon-grey"><i class="fa-solid fa-key"></i></span>
+                            <input class="login-page_input" type="password" name="password" autocomplete="off">
+                            <span class="login-page_placeholder">Пароль</span>
+                        </label>
+                        <label class="login-page_label">
+                            <span class="icon-container icon-grey"><i class="fa-solid fa-key"></i></span>
+                            <input class="login-page_input" type="password" name="confirm-password" autocomplete="off">
+                            <span class="login-page_placeholder">Повторите пароль</span>
+                        </label>
+                        <div class="signup-section_submit">
+                            <ul>
+                                <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa-brands fa-google"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa-brands fa-yandex"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa-brands fa-vk"></i></a></li>
+                            </ul>
+                            <button class="custom-button">
+                                <i class="fas fa-user-plus"></i>
+                                <span class="button-text">Создать</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="assets/js/jquery-1.12.1.min.js"></script>
+    <script src="assets/js/login-page_script.js"></script>
+
+</body>
+
+</html>
